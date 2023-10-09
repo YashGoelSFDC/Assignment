@@ -1,0 +1,61 @@
+.container{
+    text-align: center;
+}
+
+.container{
+    background-color: lightgrey;
+}
+
+.button{
+    margin: 5px;
+    padding: 15px;
+    font-size: large;
+    font-style: normal;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.buttonPointer{
+    margin: 5px;
+    padding: 17px;
+    font-size: large;
+    font-style: normal;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.buttonSubstract , .buttonDivide , .buttonx{
+    margin: 5px;
+    padding: 17px;
+    font-size: large;
+    font-style: normal;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+}
+
+.buttonAdd{
+    margin: 5px;
+    padding: 15px;
+    font-size: large;
+    font-style: normal;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+}
+
+.buttonAC{
+    padding: 10px;
+    font-size: large;
+    background-color: green;
+    color: white;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.input{
+    padding: 10px;
+    font-size: small;
+    border-radius: 5px;
+}

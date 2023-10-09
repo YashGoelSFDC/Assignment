@@ -1,0 +1,75 @@
+body{
+    background-color:lightskyblue; 
+    text-align: center;
+    background-image: url('https://th.bing.com/th/id/OIP.DYyjVIOheUghQhBMscnqbgHaEK?w=291&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7');
+}
+
+.container{
+    background-image:url('https://th.bing.com/th/id/OIP.Gl2MBSALbx2aVtgTOwmSPwHaEo?w=298&h=186&c=7&r=0&o=5&dpr=1.5&pid=1.7');
+    background-color: blue;
+    font-size: xx-large;
+    font: bold;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.label{
+    font-size: 30px;
+    margin-right: 0px;
+}
+
+.labelOptionM{
+    font-size: medium;
+    margin-right: 0px;
+}
+.labelOptionF{
+    font-size: medium;
+    margin-right: 90px;
+}
+
+.input{
+    padding: 10px;
+    margin: 5px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color:white;
+    font-size: 20px;
+}
+.input:hover{
+    background-color: lightcyan;
+}
+
+.buttonS{
+    padding: 10px;
+    margin: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font: bold;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 12px;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+
+.buttonR{
+    padding: 10px;
+    margin: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font: bold;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 12px;
+    color: white;
+    background-color:darkorange;
+    cursor: pointer;
+}

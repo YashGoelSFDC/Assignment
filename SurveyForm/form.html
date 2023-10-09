@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="form.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <form class="container"><u>SURVEY FORM</u>
+        <div class="row">
+            <label class="label">First Name</label>
+            <input class="input" placeholder="Example - Yash" type="text" minlength="2" maxlength="15" name="First Name" required="true">
+            <label class="label">Last Name</label>
+            <input class="input" placeholder="Example - Goel" type="text" minlength="2" maxlength="15" name="Last Name" required="true">
+        </div>
+
+        <div class="row">
+            <label class="label">D.O.B</label>
+            <input class="input" type="date" name="Date of Birth" required="true">
+            <label class="label">Country</label>
+            <select class="input">
+                <option value="Australia">Australia</option>
+                <option value="Canada">Canada</option>
+                <option value="China">China</option>
+                <option value="France">France</option>
+                <option value="Germany">Germany</option>
+                <option value="India" selected>India</option>
+                <option value="Italy">Italy</option>
+                <option value="Japan">Japan</option>
+                <option value="Russia">Russia</option>
+                <option value="Spain">Spain</option>
+                <option value="Switzerland">Switzerland</option>
+                <option value="UK">UK</option>
+                <option value="USA">USA</option>    
+            </select>
+        </div>
+
+        <div class="row">
+            <label class="label">Gender</label>
+            <input id="option1" class="input" type="checkbox" name="Male" onclick="selectOption(this.id)" required="true">
+            <label class="labelOptionM">Male</label>
+            <input id="option2" class="input" type="checkbox" name="Female" onclick="selectOption(this.id)" required="true">
+            <label class="labelOptionF">Female</label>
+            <label class="label">Profession</label>
+            <input class="input" name="Profession" required="true">
+        </div>
+
+        <div class="row">
+            <label class="label">Email</label>
+            <input class="input" type="email" name="Email" required="true">
+            <label class="label">Phone</label>
+            <input class="input" type="tel" name="Mobile Number" required="true">
+        </div>
+
+        <div class="row">
+            <button class="buttonS" type="submit" onclick="handleSubmit()" >SUBMIT</button>
+            <button class="buttonR" type="reset" onclick="handleReset()">RESET</button>
+        </div>
+
+    </form>
+    <script src="form.js"></script>
+</body>
+</html>
