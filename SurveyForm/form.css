@@ -1,11 +1,16 @@
 body{
     background-color:lightskyblue; 
     text-align: center;
-    background-image: url('https://th.bing.com/th/id/OIP.DYyjVIOheUghQhBMscnqbgHaEK?w=291&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://th.bing.com/th/id/OIP.zpna9xA8mumHb3dkdOVagAHaE8?w=278&h=185&c=7&r=0&o=5&dpr=1.5&pid=1.7');
 }
 
 .container{
     background-image:url('https://th.bing.com/th/id/OIP.Gl2MBSALbx2aVtgTOwmSPwHaEo?w=298&h=186&c=7&r=0&o=5&dpr=1.5&pid=1.7');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-color: blue;
     font-size: xx-large;
     font: bold;
